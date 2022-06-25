@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Acada Learning Snapshot Nexus Repository</name>
-	      <url>http://54.221.158.52/repository/maven_project_snapshot/</url>
+	      <url>http://54.221.158.52/repository/maven-freestyle-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
