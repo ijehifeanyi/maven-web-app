@@ -1,11 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>9.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
+<<<<<<< HEAD
 	<version>4.0.0-SNAPSHOT</version>
+=======
+	<version>8.0.0-SNAPSHOT</version>
+>>>>>>> 6c64fe27cdb4b5d4e2999bb026c8b35e2cbd57cc
 	
 	<name>maven-web-application</name>
 
