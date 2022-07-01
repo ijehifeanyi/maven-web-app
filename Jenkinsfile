@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage("1.CodeClone"){
       steps{
-        git credentialsId: 'Github-Cred', url: 'https://github.com/ijehifeanyi/maven-web-app.git'
+        git credentialsId: 'GITNEW', url: 'https://github.com/ijehifeanyi/maven-web-app.git'
           //slackSend channel: 'ACADA Learning', message: 'Build Started'//
         
       }
