@@ -50,11 +50,3 @@ pipeline{
     }
   }
 }
-post {
-      success {
-            slackSend color: "good", message:  " :heavy_check_mark: *SUCCESS* \n ${env.JOB_NAME} Build${env.BUILD_NUMBER}"
-        }
-        failure {
-            slackSend color: "danger", message:  ":no_entry: *FAILED* \n ${env.JOB_NAME} Build${env.BUILD_NUMBER}"
-  }
-}
