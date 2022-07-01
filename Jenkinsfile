@@ -28,7 +28,7 @@ pipeline{
     }
     stage("5.DeploytoUAT"){
       steps{
-        deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://192.168.25.15:8080/')], contextPath: null, war: 'target/*.war'
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-cred', path: '', url: 'http://192.168.25.15:8080/')], contextPath: null, war: 'target/*.war'
       }
     }
     stage("6.Approval"){
@@ -40,7 +40,7 @@ pipeline{
   }
     stage("7.deploytoPROD"){
       steps{
-        deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://192.168.25.15:8080/')], contextPath: null, war: 'target/*.war'
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-cred', path: '', url: 'http://192.168.25.15:8080/')], contextPath: null, war: 'target/*.war'
       }
     }
     stage("8.EmailNotification"){
