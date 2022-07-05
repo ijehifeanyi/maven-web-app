@@ -1,0 +1,31 @@
+digraph "com.mt:maven-web-application:war:4.0.0-SNAPSHOT" { 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.json:json:jar:20160212:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.mockito:mockito-core:jar:1.9.5:test" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-core:jar:5.1.2.RELEASE:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-web:jar:5.1.2.RELEASE:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-webmvc:jar:5.1.2.RELEASE:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-context:jar:5.1.2.RELEASE:compile" ; 
+	"org.mockito:mockito-core:jar:1.9.5:test" -> "org.hamcrest:hamcrest-core:jar:1.1:test" ; 
+	"org.mockito:mockito-core:jar:1.9.5:test" -> "org.objenesis:objenesis:jar:1.0:test" ; 
+	"org.springframework:spring-core:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.1.2.RELEASE:compile" ; 
+	"org.springframework:spring-web:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.1.2.RELEASE:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.1.2.RELEASE:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.1.2.RELEASE:compile" ; 
+ } digraph "com.mt:maven-web-application:war:4.0.0-SNAPSHOT" { 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.json:json:jar:20160212:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.mockito:mockito-core:jar:1.9.5:test" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-core:jar:5.1.2.RELEASE:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-web:jar:5.1.2.RELEASE:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-webmvc:jar:5.1.2.RELEASE:compile" ; 
+	"com.mt:maven-web-application:war:4.0.0-SNAPSHOT" -> "org.springframework:spring-context:jar:5.1.2.RELEASE:compile" ; 
+	"org.mockito:mockito-core:jar:1.9.5:test" -> "org.hamcrest:hamcrest-core:jar:1.1:test" ; 
+	"org.mockito:mockito-core:jar:1.9.5:test" -> "org.objenesis:objenesis:jar:1.0:test" ; 
+	"org.springframework:spring-core:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.1.2.RELEASE:compile" ; 
+	"org.springframework:spring-web:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.1.2.RELEASE:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.1.2.RELEASE:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.1.2.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.1.2.RELEASE:compile" ; 
+ } 
