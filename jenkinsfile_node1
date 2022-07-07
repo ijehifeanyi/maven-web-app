@@ -16,7 +16,7 @@ pipeline{
         sh "mvn clean package"
       }
     }
-   /* stage("3.CodeQuality"){
+    stage("3.CodeQuality"){
       steps{
         sh "mvn sonar:sonar"
       }
@@ -25,7 +25,7 @@ pipeline{
       steps{
         sh "mvn deploy"
       }
-    }*/
+    }
     stage("5.DeploytoUAT"){
       steps{
         deploy adapters: [tomcat9(credentialsId: 'Tomcat-cred', path: '', url: 'http://192.168.25.15:8080/')], contextPath: null, war: 'target/*.war'
